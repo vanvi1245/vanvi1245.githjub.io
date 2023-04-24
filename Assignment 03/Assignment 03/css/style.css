@@ -1,0 +1,379 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.bg-grey {
+  background: #f7f7f7;
+}
+.section-title {
+  padding: 30px 0;
+  margin: 10px 0;
+}
+section > .container {
+  max-width: 1170px;
+  margin: auto;
+  display: block;
+
+  padding: 30px 50px;
+}
+/* phần 1 */
+.background-img img {
+  max-height: 500px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 0px;
+  border-bottom: #d0d0d0 1px solid;
+}
+.banner {
+  position: relative;
+}
+.background-name {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+
+  color: #fff;
+  width: 100%;
+}
+/* phần navbar */
+.name {
+  position: relative;
+  width: 200px;
+}
+
+.avatar {
+  position: absolute;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -30px;
+}
+.avatar img {
+  border-radius: 50%;
+  border: 10px solid white;
+}
+#nav-bar i {
+  color: #1899d4;
+}
+
+#nav-bar .container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+#nav-bar .container a {
+  text-decoration: none;
+  color: #1899d4;
+  padding: 30px 10px;
+  border-left: 1px solid #d0d0d0;
+  border-right: 1px solid #d0d0d0;
+}
+/* phần 2 */
+.info-container-icon {
+  color: #1899d4;
+  display: flex;
+}
+#my-form button {
+  cursor: pointer;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: #199cdb;
+  color: white;
+}
+.email-input input {
+  width: 100%;
+  border: 1px solid #199cdb;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.email-input {
+  padding-left: 40px;
+}
+.hide {
+  display: none;
+}
+/* .a {
+  color: #d0d0d0;
+  margin-top: 10px;
+} */
+
+.info {
+  padding-bottom: 20px;
+}
+#about {
+  border-top: #d0d0d0 1px solid;
+}
+/* #about .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+} */
+#nav-bar {
+  text-align: center;
+}
+/* #job-info .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+} */
+.job-item {
+  position: relative;
+  border: 1px solid #d0d0d0;
+  box-shadow: 1px 5px 5px #d0d0d0;
+}
+.job-header {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  height: 150px;
+}
+.job-header h1 {
+  padding: 20px 40px;
+}
+.job-header i {
+  padding: 20px 40px;
+  font-size: 36px;
+}
+.job-content {
+  padding: 0 40px;
+}
+.work-detail {
+  padding: 20px 40px;
+}
+.name-work {
+  position: relative;
+}
+.name-work::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  transform: translateY(-50%);
+  left: -25px;
+  width: 10px;
+  height: 10px;
+  background-color: #199cdb;
+  border-radius: 50%;
+  filter: blur(1px);
+}
+.time-line h5 {
+  font-style: italic;
+  font-weight: unset;
+  padding: 10px 0px;
+  color: gray;
+}
+.recent {
+  background-color: #199cdb;
+  color: white;
+  border-radius: 5px;
+  padding: 2px 10px;
+}
+.work-content h5,
+.hobbies-item h5 {
+  line-height: 1.8;
+  font-weight: unset;
+  color: gray;
+}
+
+.hobbies {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px 0px;
+  gap: 10px;
+}
+.hobbies-item {
+  text-align: center;
+}
+.hobbies-item i {
+  width: 50px;
+  color: #199cdb;
+  font-size: 24px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.language,
+.skill {
+  padding: 20px 40px;
+}
+.rate {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px 0px;
+  gap: 20px;
+}
+.rate div.active {
+  height: 4px;
+  background-color: #199cdb;
+}
+.rate div.non-active {
+  height: 4px;
+  background-color: #d0d0d0;
+}
+
+/* phần 4 */
+/* #certificate .certicate-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 20px;
+} */
+.certicate-content img {
+  height: 100px;
+  width: auto;
+  padding-right: 10px;
+}
+.certicate-conten-img {
+  width: 150px;
+}
+.certicate-conten-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px 0;
+}
+.certicate-content-word h4 {
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 10px 0;
+}
+.certicate-content-word p {
+  font-size: 12px;
+}
+
+.line {
+  grid-column: 1/-1;
+  height: 1px;
+  background-color: rgb(255, 140, 0);
+}
+#img-border-left {
+  padding-left: 15px;
+  border-left: 1px orange solid;
+}
+
+/* phần 5: dự án */
+.project-img img {
+  height: 250px;
+  width: 100%;
+}
+/* #project .project-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+} */
+/* .project-content {
+  margin: 20px 20px;
+  padding: 20px 20px;
+} */
+table {
+  height: 450px;
+}
+table,
+tr {
+  border: 1px solid #d0d0d0;
+  border-collapse: collapse;
+  padding-bottom: 10px;
+}
+td {
+  padding: 10px 10px;
+  font-size: 13px;
+}
+.project-name,
+.project-time {
+  text-align: center;
+  border: 1px solid #d0d0d0;
+}
+.project-name h4 {
+  text-transform: uppercase;
+  padding: 15px 0;
+  font-size: 16px;
+}
+.time,
+.funix,
+.developer {
+  display: inline-block;
+  padding: 10px;
+}
+.time {
+  padding: 5px;
+  background-color: #26a5df;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #fff;
+}
+.funix i,
+.developer i,
+#footer i {
+  font-style: normal;
+  font-size: 14px;
+}
+li {
+  list-style-type: none;
+}
+#footer .container ul {
+  text-align: center;
+  padding: 0;
+}
+#footer .container li {
+  display: inline;
+
+  padding-right: 20px;
+  justify-items: center;
+}
+#footer a {
+  text-decoration: none;
+}
+#footer i {
+  color: #199cdb;
+}
+#personal-info {
+  position: relative;
+}
+.close-job {
+  position: absolute;
+
+  top: 100%;
+  left: 7%;
+  cursor: pointer;
+}
+.job-item:hover {
+  cursor: pointer;
+  /* height: 150px; */
+}
+.job-button {
+  text-align: center;
+  display: none;
+}
+.view-job {
+  padding: 10px 30px;
+  background-color: #199cdb;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.view-job:hover {
+  background-color: #198abe;
+  transition: all 0.3s;
+}
+.job-item:hover {
+  padding-bottom: 50px;
+}
+.job-item:hover .job-button {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.5s;
+}

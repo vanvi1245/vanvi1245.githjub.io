@@ -1,0 +1,19 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .content-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .icon {
+    text-align: center;
+  }
+  .container .content {
+    width: 100%;
+  }
+  #scopes h3 {
+    text-align: center;
+  }
+}
